@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style2.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/Barra.css">
+    <title>Document</title>
+</head>
+<body>
+    <script src="/filtrar.js"></script>
+    
+    <header>
+        
+        
+        <div class="position_itens_header">
+            
+            
+            <h1>Exclusive</h1>
+            
+            <!-- navegação para diferentes partes do site - nav do header -->
+            <nav>
+                <a href="/index.html">inicio</a>
+                <a href="">Contato</a>
+                <a href="">Sobre</a>
+                <a href="/TodosProdutos.html">Perfil</a>
+                
+                <div class="section_user">
+                    
+                    
+                     <!-- barra de pesquisa - carrinho - curtidos. (aprender como implementar com JS) -->
+                     <div class="buscar">
+                        <input id="inputBusca" onkeyup="filtrar()" type="text" placeholder="O que você procura?">
+                        <ul id="listaProdutos">
+                        </ul>
+                    </div>
+                        
+                        
+                        
+                    </div>
+                    
+                    
+                    
+                </nav>
+                
+            </div>
+    </header>
+
+    <!-- Adicionando botão para adicionar produto -->
+    <button onclick="adicionarProduto()">Adicionar Produto</button>
+
+    <section class="selecao_produtos">
+        <!-- Aqui serão listados os produtos via JavaScript -->
+    </section>
+
+    <script src="/JS/repository.js"></script>
+</body>
+</html>
