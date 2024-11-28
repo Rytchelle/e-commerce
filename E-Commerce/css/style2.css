@@ -1,0 +1,488 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-style: none;
+    box-sizing: border-box;
+}
+
+
+
+header{
+
+    border-bottom: 0.5px solid;
+    color: #000;
+}
+
+.position_itens_header{
+    margin-top: 60px;
+    display: inline-flex;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.position_itens_header{
+    
+    
+    align-items: baseline;
+}
+
+header >.position_itens_header> nav{
+    
+    
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 50px;
+    
+    font-weight: 400; 
+    font-size: 16px;
+    
+}
+
+nav > a {
+    
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: #000;
+}
+
+
+h1{
+    
+    margin-right: 200px;
+    justify-content: left;
+    margin-left: 135px;
+}
+
+
+.section_user{
+    
+    
+    margin-left: 200px;
+    display: flex;
+    justify-content: right;
+    margin-left: 60px;
+}
+.aba{
+color: #ffffff;
+ background-color: #000;
+ justify-content: center;
+ display: flex;
+ padding: 30px;
+ font-size: 18px;
+}
+
+.suprema{
+
+    margin-left: 135px;
+    margin-right: 135px;
+
+}
+
+
+    
+
+.navbar{
+    width: 217px;
+    border-right: #000 0.5px solid;
+    line-height: 50px;
+    
+    color: #000;
+
+}
+.invisivel{
+color: rgb(255, 255, 255);
+margin-top: 50px;
+
+}
+
+.carrinho{
+
+margin-left: 20px;
+
+margin-right: 135px; ;
+
+}
+
+.barra_de_pesquisa{
+
+margin-right: 20px;
+
+margin-left: 70px;
+
+}
+
+
+.section_nav{
+
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+
+.todeys{
+
+
+margin-top: 220px;
+display: flex;
+align-items:center;
+
+color: crimson;
+
+}
+
+.todeys > p{
+
+    margin-left: 10px;
+    font-size: 20px;
+}
+  
+
+
+
+.conteiner_relogio_H2{
+
+font-size: 80px;
+
+}
+
+.conteiner_relogio{
+
+display: flex;
+
+align-items: baseline;
+
+
+}
+
+.conteiner_relogio_H2 {
+
+
+font-size: 40px;
+margin-bottom: 10px;
+
+}
+
+.data{
+
+
+    display: flex;
+    align-items: baseline;
+    margin-left: 330px;
+    font-size: 20px;
+    gap: 58px;
+    margin-bottom: 10px;
+}
+
+.contador{
+
+    margin-left: 70px;
+    justify-content: space-between;
+    gap: 20px;
+    font-size:50px;
+
+}
+
+.contador > span {
+
+margin-left: 10px;
+
+}
+
+.contador > strong{
+
+margin-left: 10px;
+color: brown;
+
+
+}
+
+
+
+.selecao_produtos{
+
+background-color: #ffffff;
+margin-top: 50px;
+display: flex;
+flex-direction: row;
+}
+
+
+.conteiner_produtos{
+
+    background-color: rgb(244, 241, 241);
+height:250px ;
+width: 270px;
+border-radius: 4px;
+justify-content: space-between;
+
+margin-right: 60px;
+
+
+}
+
+.clicar_produtos{
+
+    display: flex;
+justify-content: center;
+
+margin-top: 40px;
+
+}
+
+.descrição_Prudu{
+
+display: flex;
+flex-direction: column;
+justify-content: left;
+
+}
+
+
+.preço{
+
+color: brown;
+
+margin-top: 10px;
+
+font-size: 20px;
+}
+
+.preço > span{
+
+text-decoration: line-through;
+color: gray;
+
+margin-left: 20px;
+}
+
+
+.descricao{
+
+display: flex;
+flex-direction: column;
+
+}
+
+.estrelas{
+    width: 140px;
+    height: 20px;
+    
+    margin-top: 30px;
+    margin-left: -5px;
+}
+
+
+.img_produtos{
+
+width: 172px;
+height: 152px;
+
+}
+
+
+
+.fonte {
+    font-family: Arial, sans-serif;
+}
+
+
+.card {
+    width: 300px;
+    height: 180px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #d141f2, #9013fe);
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.h2_card {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.P_card {
+    margin: 5px 0;
+}
+#outputCardName{
+
+color: #000;
+
+}
+
+#Verifique{
+
+color: #000;
+
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+.botao_TodosProduto {
+    width: 234px;
+    height: 56px;
+    background-color: #DB4444;
+    margin-left: 40%;
+    margin-top: 90px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;  /* Alinha horizontalmente */
+    align-items: center;      /* Alinha verticalmente */
+    font-size: 16px;
+    text-align: center;       /* Alinha o texto no meio */
+    border-radius: 4px;
+}
+
+.botao_puff {
+    text-align: center;
+    border-bottom: 1px solid;
+    border-bottom: #000;
+    margin-bottom: 50px;
+}
+
+
+
+
+.conteiner_ads{
+
+margin-top: 70px  ;
+margin-bottom: 40px;
+width: auto;
+height: 500px;
+background-color: #000;
+color: #d8d8d8;
+display: flex;
+flex-direction: row;
+}
+
+
+
+.Categoria{
+
+    margin-top: 80px;
+color: #00FF66;
+
+}
+
+
+.posicionar_itens{
+
+
+display: flex;
+flex-direction: column;
+margin-left: 80px;
+
+}
+
+.posicionar_itens > h1{
+
+font-size: 45px;
+margin-left: -3px;
+margin-top: 30px;
+margin-right: 10px;
+}
+
+
+.botao_ver{
+
+
+width: 171px;
+height: 56px;
+border-radius: 4px;
+display: flex;
+    justify-content: center;  /* Alinha horizontalmente */
+    align-items: center;      /* Alinha verticalmente */
+    font-size: 16px;
+    text-align: center;       /* Alinha o texto no meio */
+    background-color: #00FF66;
+color: #ffffff;
+margin-top: 80px;
+}
+
+.img_jbl{
+
+margin-left: 20px;
+
+}
+
+.img_jbl > img{
+
+
+width: 568px;
+height: 330px;
+margin-top: 100px;
+margin-left: 50px;
+}
+
+
+.acao_produto {
+    margin-top: 10px;
+}
+
+button {
+    padding: 5px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+
+.editar, .excluir {
+    cursor: pointer;  /* Torna os ícones clicáveis */
+    margin-right: 30px;
+    gap: -20px;
+    width: 20px;
+}
+.editar {
+    display: flex;
+    justify-content: last baseline;
+    align-items: last baseline;
+    margin-left: 50px;
+}
+
+.editar:hover {
+    background-color: #45a04928;
+}
+
+.excluir:hover {
+    background-color: #ff6e6c5c;
+}
+
+/* CSS para exibir os produtos em linha */
+.selecao_produtos {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens quebrem para a linha seguinte */
+    gap: 20px; /* Espaçamento entre os produtos */
+}
+
+.linha_produtos {
+    display: flex;
+    gap: 20px;
+    width: 100%;  /* Garantir que a linha ocupe toda a largura disponível */
+}
+
+.descrição_Prudu {
+    width: calc(25% - 20px); /* Cada produto ocupará 25% da largura da linha */
+    box-sizing: border-box;
+}

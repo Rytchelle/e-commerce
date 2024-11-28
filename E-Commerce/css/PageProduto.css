@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-style: none;
+    box-sizing: border-box;
+}
+header{
+
+    border-bottom: 0.5px solid;
+    color: #000;
+}
+
+.position_itens_header{
+    margin-top: 60px;
+    display: inline-flex;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.position_itens_header{
+    
+    
+    align-items: baseline;
+}
+
+header >.position_itens_header> nav{
+    
+    
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 50px;
+    
+    font-weight: 400; 
+    font-size: 16px;
+    
+}
+
+nav > a {
+    
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: #000;
+}
+
+
+h1{
+    
+    margin-right: 200px;
+    justify-content: left;
+    margin-left: 135px;
+}
+
+
+.section_user{
+    
+    
+    margin-left: 200px;
+    display: flex;
+    justify-content: right;
+    margin-left: 60px;
+}
+
+
+.suprema{
+
+    margin-left: 135px;
+
+}
+
+
+
+.titulo_produto{
+
+display: flex;
+flex-direction: row;
+font-size: 20px;
+margin-top: 110px;
+margin-bottom: 20px;
+border-radius: 4px;
+}
+
+.titulo_produto > span{
+
+color: #656565;
+margin-right: 20px;
+}
+
+
+
+.imagens_produtos{
+    
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    max-height: 600px;
+
+
+}
+
+.produto_vertical{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    
+}
+
+
+.conteiner_verticais{
+
+
+   width: 170px;
+   height: 138px;
+   background-color: rgb(218, 214, 214);
+   display: flex;
+   justify-content: center;
+margin-top: 20px;
+}
+
+.imgs_verticais{
+
+     margin-top: 10px;
+    Width:  121px;
+    Height: 114px;
+
+}
+
+
+
+.conteiner_principal{
+    
+    display: flex;
+    justify-content: center;
+     align-items: center;
+    background-color: rgb(243, 240, 240);
+   
+    margin-top:  20px;
+    margin-left: 50px;
+
+    width: 500px;
+    height: 580px;
+}
+
+.img_principal{
+
+
+width:  446px;
+height: 315px;
+}
+
+
+
+.descricao{
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 110px;
+    }
+    
+    .estrelas{
+        width: 140px;
+        height: 20px;
+        
+        margin-top: 20px;
+    }
+
+
+
+    .descricao_reviu{
+
+        margin-top: 20px;
+    }
+
+    .descricao_reviu > span{
+        margin-left: 20px;
+        color: #656565;
+    }
+    
+    
+    .descricao_reviu > strong{
+        
+        margin-left: 20px;
+      color: #60f437;
+
+ }
+
+ .position_descrition{
+
+display: flex;
+flex-direction: row;
+
+ }
+
+
+ .descricao_preco{
+
+
+margin-top: 20px;
+margin-bottom: 30px;
+
+ }
+
+
+ .TEXTO_decricao{
+
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+margin-bottom: 20px;
+ }
+
+
+ .Contador{
+
+margin-top: 50px;
+background-color: palegoldenrod ;
+
+ }
+
+ .Comprar{
+
+    margin-top: 50px;
+background-color: palevioletred;
+
+ }
+
+
+
+ #mostar_descricao{
+
+background-color: none;
+
+ }
+ #Descrição_p {
+    display: none; /* Oculta o parágrafo inicialmente */
+
+}
+
