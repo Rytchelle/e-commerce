@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cartão de Crédito</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="fonte">
+        <div>
+            <h1>Dados do Cartão</h1>
+            
+            <input type="text" id="cardName" placeholder="Nome do Dono" maxlength="30" required>
+            <input type="text" id="cardNumber" placeholder="Número do Cartão (16 dígitos)" maxlength="19" required>
+            <input type="text" id="expiryDate" placeholder="Validade (MM/AA)" maxlength="7" value="4" required>
+            <input type="text" id="cardCVV" placeholder="Código de Segurança (CVV)" maxlength="3" required>
+            <button id="mostar_descricao">Mostrar Cartão</button>
+        </div>
+
+        <div id="Descrição_p"> 
+            <div id="outputContainer" class="card">
+                <div class="card-background"></div>
+
+                <!-- Conteúdo do cartão -->
+                <div class="card-content">
+                    <h2 class="h2_card" id="outputCardName"></h2>
+                    <p class="P_card" id="outputCardNumber"></p>
+                    <p class="P_card" id="outputExpiryDate"></p>
+                    <p class="P_card" id="outputCVV"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/JS/Cartao.js"></script>
+</body>
+</html>

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style2.css">
+    <link rel="stylesheet" href="/css/carrosel.css">
+    <link rel="stylesheet" href="/css/Barra.css">
+    
+    <title>TECHZone</title>
+</head>
+<body>
+    
+
+
+      <section class="HAT">
+       
+          <div class="MARGEM"> 
+
+              <div class="section_user">
+                  <div class="buscar">
+                      <!-- Barra de pesquisa com ícone de lupa -->
+                      <div class="input-container">
+                          <input id="inputBusca" onkeyup="filtrar()" type="text" placeholder="O que você procura?">
+                          <img src="/assets/lupa.png" alt="Lupa" class="lupa-icon"> <!-- Ícone PNG -->
+                        </div>
+                        <ul id="listaProdutos"></ul>
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+            <!-- Incluir o link para o Font Awesome -->
+            <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+            
+                
+            
+            <div class="NOME">
+                <h1>Tech<span>Zone</span></h1>
+
+            </div>
+            
+            <div class="Contato">
+                <span>Contato</span>
+                
+                <div class="numero">
+
+                    <img src="/" alt="">
+                    
+                    <p>(55) 11 949045858</p>
+                    
+                    <p>|</p>
+                    
+                </div>
+            </div>
+        </div>
+          
+        
+
+
+    </section>
+    
+    
+  
+            
+          <header>
+
+  
+            <nav class="header_nav">
+
+
+          <a class="AS" href="">HOME</a>
+        <a class="AS"  href="/pagePagamentos/frontmastes/Cartao.html">PAGAMENTO</a>
+          <a class="AS" href="">SOBRE</a>
+          <a class="AS" href="/TodosProdutos.html">PRODUTOS</a>
+
+            </nav>
+               
+
+
+          </header>  
+            
+            
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- COMEÇA AQUI -->
+            
+    <div class="body">
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <!-- Imagem 1 -->
+               
+               
+                <video class="carousel-video" autoplay muted loop>
+                    <source src="/Vid/4.mp4" type="video/mp4"> 
+                    Seu navegador não suporta a tag de vídeo.
+                </video>
+               
+               
+                <video class="carousel-video" autoplay muted loop>
+                    <source src="/Vid/1.mp4" type="video/mp4">
+                    Seu navegador não suporta a tag de vídeo.
+                </video>
+            
+            <!-- Vídeo 1 -->
+            <video class="carousel-video" autoplay muted loop>
+                <source src="/Vid/2.mp4" type="video/mp4">
+                Seu navegador não suporta a tag de vídeo.
+            </video>
+            
+            <!-- Vídeo 2-->
+            <video class="carousel-video" autoplay muted loop>
+                <source src="/Vid/3.mp4" type="video/mp4">
+                Seu navegador não suporta a tag de vídeo.
+            </video>
+            
+            
+        </div>
+        
+        <!-- Botões de navegação -->
+        <button class="prev" onclick="mudarImagem(-1)">&#10094;</button>
+            <button class="next" onclick="mudarImagem(1)">&#10095;</button>
+        </div>
+        
+        <script src="/JS/Carrosel.js"></script>
+    </div>
+    
+            
+       
+            
+        </section>
+        
+        <div class="suprema">
+        
+        <section class="section_produtos">
+            
+            <div class="todeys">
+                
+                
+                <img src="/assets/Rectangle 18.png" alt="">
+               
+               <p>Apenas hoje!!</p>
+               
+               
+            </div>
+            
+            
+            <div class="data">
+                
+                <p>Dias</p>
+                <p>Horas</p>
+                <p>Minutos</p>
+                <p>Segundos</p>
+            </div>
+            
+            <div class="conteiner_relogio">
+                <h2 class="conteiner_relogio_H2">Ofertas do dia</h2>
+                <div class="contador" id="countdown">
+                    <span id="days">00</span>  <strong>:</strong>
+                    <span id="hours">00</span>  <strong>:</strong>
+                    <span id="minutes">00</span>  <strong>:</strong>
+                    <span id="seconds">00</span>
+                    
+                </div>
+            </div>
+            
+            
+            
+            <section class="selecao_produtos">
+                <!-- Produto 1 -->
+                <div class="descrição_Prudu" id="produto1">
+                    <div class="conteiner_produtos">
+                        <a class="clicar_produtos" href="/indexPRODUTOS/PagePruduto1.html">
+                            <img class="img_produtos" src="/indexPRODUTOS/PageProduto/Controlle/image 57.png" alt="">
+                        </a>
+                    </div>
+                    <h4>Controle MUITO FODA</h4>
+                    <strong class="preço">R$ 990 <span>R$ 1100</span></strong>
+                    
+                    
+                </div>
+                <!-- Produto 2 -->
+                <div class="descrição_Prudu" id="produto2">
+                    <div class="conteiner_produtos">
+                        <a class="clicar_produtos" href="indexPRODUTOS/PagePruduto2.html">
+                            <img class="img_produtos" src="/indexPRODUTOS/PageProduto/notbokk/Captura_de_tela_2024-10-30_152746-removebg-preview.png" alt="">
+                        </a>
+                    </div>
+                    <span></span>
+                    <strong class="preço">R$ 990 <span>R$ 1100</span></strong>
+                    
+                    
+                </div>
+                
+                <!-- Produto 3 -->
+                <div class="descrição_Prudu" id="produto3">
+                    <div class="conteiner_produtos">
+                        <a class="clicar_produtos" href="/indexPRODUTOS/PagePruduto3.html">
+                            <img class="img_produtos" src="/indexPRODUTOS/PageProduto/Munitor/Captura_de_tela_2024-10-30_160445-removebg-preview.png" alt="">
+                        </a>
+                    </div>
+                    <h4>Munitor GAMER MUITO FODA</h4>
+                    <strong class="preço">R$ 990 <span>R$ 1100</span></strong>
+                    
+                </div>
+                
+                <!-- Produto 4 -->
+                <div class="descrição_Prudu" id="produto4">
+                    <div class="conteiner_produtos">
+                        <a class="clicar_produtos" href="indexPRODUTOS/PagePruduto4.html">
+                            <img class="img_produtos" src="/indexPRODUTOS/PageProduto/GOG GLASS/vegeta.png" alt="">
+                        </a>
+                    </div>
+                    <h4>GOG GLASS MUITO FODA</h4>
+                    <strong class="preço">R$ 990 <span>R$ 1100</span></strong><br>
+                    
+                </div>
+                
+                  <!-- Produto 4 -->
+                  <div class="descrição_Prudu" id="produto4">
+                    <div class="conteiner_produtos">
+                        <a class="clicar_produtos" href="indexPRODUTOS/PagePruduto4.html">
+                            <img class="img_produtos" src="/indexPRODUTOS/PageProduto/GOG GLASS/vegeta.png" alt="">
+                        </a>
+                    </div>
+                    <h4>GOG GLASS MUITO FODA</h4>
+                    <strong class="preço">R$ 990 <span>R$ 1100</span></strong><br>
+                    
+                </div>
+            </section>
+            
+            
+            
+            <script src="/JS/relogio.js"></script>
+            <script src="/JS/repository.js"></script>
+            <script src="/filtrar.js"></script>
+        </body>
+        </html>
+   

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Concert+One&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style2.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/Barra.css">
+    <title></title>
+</head>
+<body>
+    <script src="/filtrar.js"></script>
+    
+    <section class="HAT">
+       
+        <div class="MARGEM"> 
+
+            <div class="section_user">
+                <div class="buscar">
+                    <!-- Barra de pesquisa com ícone de lupa -->
+                    <div class="input-container">
+                        <input id="inputBusca" onkeyup="filtrar()" type="text" placeholder="O que você procura?">
+                        <img src="/lupa.png" alt="Lupa" class="lupa-icon"> <!-- Ícone PNG -->
+                      </div>
+                      <ul id="listaProdutos"></ul>
+                  </div>
+              </div>
+              
+          </div>
+          
+          
+          <!-- Incluir o link para o Font Awesome -->
+          <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+          
+              
+          
+          <div class="NOME">
+              <h1 class="Titulo">Tech<span>Zone</span></h1>
+          </div>
+          
+          <div class="Contato">
+              <span>Contato</span>
+              
+              <img src="/" alt="">
+              
+              <p>(55) 11 949045858</p>
+              
+              <p>|</p>
+         
+          </div>
+      </div>
+        
+      
+
+
+  </section>
+  
+  
+
+          
+        <header>
+
+
+          <nav class="header_nav">
+
+
+        <a class="AS" href="/index.html">HOME</a>
+      <a class="AS"  href="/pagePagamentos/frontmastes/ModoDePagamento.html">PAGAMENTO</a>
+        <a class="AS" href="">SOBRE</a>
+        <a class="AS" href="/TodosProdutos.html">PRODUTOS</a>
+
+          </nav>
+             
+
+
+        </header>  
+          
+          
+<div class="suprema">
+
+    <!-- Adicionando botão para adicionar produto -->
+    <button onclick="adicionarProduto()">Adicionar Produto</button>
+    
+    <section class="selecao_produtos">
+        <!-- Aqui serão listados os produtos via JavaScript -->
+    </section>
+    
+</div>
+    <script src="/JS/repository.js"></script>
+</body>
+</html>

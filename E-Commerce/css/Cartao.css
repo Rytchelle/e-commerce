@@ -1,0 +1,102 @@
+/* Estilos gerais para o layout */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Cartão de crédito */
+.card {
+    width: 300px;
+    height: 180px;
+    background-color: #1a1a1a;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/* Fundo do cartão com imagem de fundo */
+.card-background {
+    background: url('path_to_your_card_background_image.jpg'); /* Coloque o caminho da imagem de fundo */
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Fica atrás do conteúdo do cartão */
+    border-radius: 10px;
+}
+
+/* Posicionamento do nome do titular */
+.h2_card {
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+}
+
+/* Posicionamento do número do cartão */
+.P_card {
+    font-size: 18px;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    right: 20px;
+    color: white;
+    text-align: center;
+}
+
+/* Posicionamento da validade do cartão */
+.P_card:last-of-type {
+    font-size: 14px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+}
+
+/* Posicionamento do CVV */
+.P_card:nth-child(4) {
+    font-size: 14px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+}
+
+/* Estilos para os campos do formulário */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+button {
+    padding: 10px 15px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
